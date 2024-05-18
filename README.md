@@ -12,7 +12,7 @@
      </div>
      </div>
      <div class="col-6">
-     <img src="Ganda.png" class="img-thumbnail" style="width:400px;height:500px;"/><br>
+     <img src="Mark kenneth.png" class="img-thumbnail" style="width:400px;height:500px;"/><br>
        <button class="btn btn-primary" type-button> Like</button>
      </div>
      <div class="col-6">
