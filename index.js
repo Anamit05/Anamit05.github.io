@@ -29,3 +29,13 @@ function hitdisLikes2() {
 }
 btndisLike1.addEventListener("click",hitdisLikes1)
 btndisLike2.addEventListener("click",hitdisLikes2)
+
+btnLike2.addEventListener("click", clickLike2)
+
+const submit = document.getElementaryById("submit")
+const comment = document.getElementaryById("commen")
+const commentbox = document.getElementaryById("commentbox")
+function submitComment(){
+  commentbox.textContext += comment.value.toStrong() + "\n"
+}
+submit.addEventListener("click", submitComment)
