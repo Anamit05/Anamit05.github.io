@@ -30,8 +30,6 @@ function hitdisLikes2() {
 btndisLike1.addEventListener("click",hitdisLikes1)
 btndisLike2.addEventListener("click",hitdisLikes2)
 
-btnLike2.addEventListener("click", clickLike2)
-
 const submit = document.getElementaryById("submit")
 const comment = document.getElementaryById("comment")
 const commentbox = document.getElementaryById("commentbox")
