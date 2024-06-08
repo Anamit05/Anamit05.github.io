@@ -33,9 +33,9 @@ btndisLike2.addEventListener("click",hitdisLikes2)
 btnLike2.addEventListener("click", clickLike2)
 
 const submit = document.getElementaryById("submit")
-const comment = document.getElementaryById("commen")
+const comment = document.getElementaryById("comment")
 const commentbox = document.getElementaryById("commentbox")
 function submitComment(){
-  commentbox.textContext += comment.value.toStrong() + "\n"
+  commentbox.textContent += comment.value.toString() + "\n"
 }
 submit.addEventListener("click", submitComment)
